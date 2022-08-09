@@ -38,7 +38,7 @@ namespace WebAPI.Controllers
                     myReader = myCommand.ExecuteReader();
                     table.Load(myReader); ;
 
-                    myReader.Close();
+                    myReader.Close(); 
                     myCon.Close();
                 }
             }
@@ -101,7 +101,7 @@ namespace WebAPI.Controllers
             return new JsonResult("Updated Successfully");
         }
 
-
+         
         [HttpDelete("{id}")]
         public JsonResult Delete(int id)
         {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\mycourses\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Pot_e\\source\\repos\\WebApi\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "E:\\mycourses\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Pot_e\\source\\repos\\WebApi\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\mycourses\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Pot_e\\source\\repos\\WebApi\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "E:\\mycourses\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Vinay6666\\.nuget\\packages\\",
-        "outputPath": "E:\\mycourses\\coreAPI\\WebAPI\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Pot_e\\source\\repos\\WebApi\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Pot_e\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pot_e\\source\\repos\\WebApi\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vinay6666\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pot_e\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -60,7 +62,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
